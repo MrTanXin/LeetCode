@@ -1,0 +1,13 @@
+F:\LeetCode\8\bin\Debug\netcoreapp3.1\8.exe
+F:\LeetCode\8\bin\Debug\netcoreapp3.1\8.deps.json
+F:\LeetCode\8\bin\Debug\netcoreapp3.1\8.runtimeconfig.json
+F:\LeetCode\8\bin\Debug\netcoreapp3.1\8.runtimeconfig.dev.json
+F:\LeetCode\8\bin\Debug\netcoreapp3.1\8.dll
+F:\LeetCode\8\bin\Debug\netcoreapp3.1\8.pdb
+F:\LeetCode\8\obj\Debug\netcoreapp3.1\8.csprojAssemblyReference.cache
+F:\LeetCode\8\obj\Debug\netcoreapp3.1\8.AssemblyInfoInputs.cache
+F:\LeetCode\8\obj\Debug\netcoreapp3.1\8.AssemblyInfo.cs
+F:\LeetCode\8\obj\Debug\netcoreapp3.1\8.csproj.CoreCompileInputs.cache
+F:\LeetCode\8\obj\Debug\netcoreapp3.1\8.dll
+F:\LeetCode\8\obj\Debug\netcoreapp3.1\8.pdb
+F:\LeetCode\8\obj\Debug\netcoreapp3.1\8.genruntimeconfig.cache
