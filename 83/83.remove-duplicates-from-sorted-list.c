@@ -7,28 +7,38 @@
 // @lc code=start
 
 // Definition for singly-linked list.
-#include <stdio.h>
+// #include <stdio.h>
 
-struct ListNode {
-    int val;
-    struct ListNode *next;
-};
+// struct ListNode {
+//     int val;
+//     struct ListNode *next;
+// };
 
 
 
 struct ListNode* deleteDuplicates(struct ListNode* head){
-    if (head==NULL)
+    if (!head)
     {
-        return NULL;
-    }
-    struct ListNode *p = head, *nf = NULL, *n = head;
-    while (n!=0)
-    {
-        nf = n;
-        
-        
+        return head;
     }
     
+    struct ListNode *iterator = head->next , *iteratorFront = head;
+    
+    while (iterator)
+    {
+        if (iteratorFront->val == iterator->val)
+        {
+            iteratorFront->next = iterator->next;
+            free(iterator);
+            iterator = iteratorFront->next;
+        }
+        else
+        {
+            iteratorFront = iterator;
+            iterator = iterator->next;
+        }
+    }
+    return head;
 }
 // @lc code=end
 
