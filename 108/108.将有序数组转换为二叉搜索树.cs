@@ -32,7 +32,7 @@ public class Solution
           if(min>max) return null;
         int mid = (min + max) / 2;
         TreeNode t = new TreeNode(nums[mid]);
-        t.left = ToTree(nums, 0, mid - 1);
+        t.left = ToTree(nums, min, mid - 1);
         t.right = ToTree(nums, mid + 1, max);
         return t;
     }
